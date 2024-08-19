@@ -1,5 +1,108 @@
 /* styles.css */
+* {
+    padding: 0;
+    margin: 0;
+    border: 1px solid black;
+}
+:root {
+    --main-font-color: antiquewhite;
+  }
 body {
     background-color: rgb(93, 46, 34);
+    box-sizing: border-box;
   }
-  
+/* header & footer*/
+.header {
+    height: 6vh;
+}
+nav {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 15px;
+}
+.header-button {
+    height: 40px;
+    width: 80px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    background-color: var(--main-font-color);
+}
+.footer {
+    height: 4vh;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--main-font-color);
+}
+/* main content */
+#content {
+    height: 88vh;
+}
+/* homepage */
+.home-page {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,minmax(250px,500px));
+    grid-template-rows: repeat(4,1fr);
+    column-gap: 20px;
+    justify-content: center;
+}
+.name {
+    grid-column: 1/4;
+    justify-self: center;
+    align-self: center;
+    font-size: 4rem;
+    color: var(--main-font-color);
+}
+.promo {
+    grid-column: 1/4;
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+    font-size: 1.8rem;
+    color: var(--main-font-color);
+}
+.picture {
+    height: 450px;
+    display: flex;
+    align-items: flex-end;
+    color: var(--main-font-color);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+.one {
+    background-image: url(./images/ai-generated-8683863_640.jpg);
+    border: 8px solid var(--main-font-color);
+}
+.two {
+    background-image: url(./images/food-8771203_640.png);
+    border: 8px solid var(--main-font-color);
+}
+.three {
+    background-image: url(./images/ai-generated-8606240_640.jpg);
+    border: 8px solid var(--main-font-color);
+}
+
+@media screen and (max-width: 800px) {
+    .name {
+        font-size: 3rem;
+    }
+    .promo {
+        font-size: 1.3rem;
+    }
+    .picture {
+        height: 200px;
+    }
+    .one {
+        grid-column: 2/3;
+    }
+    .two {
+        grid-column: 2/3;
+    }
+    .three {
+        grid-column: 2/3;
+    }
+  }
