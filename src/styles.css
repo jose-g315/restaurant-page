@@ -66,8 +66,6 @@ nav {
 }
 .picture {
     height: 450px;
-    display: flex;
-    align-items: flex-end;
     color: var(--main-font-color);
     background-repeat: no-repeat;
     background-size: 100% 100%;
