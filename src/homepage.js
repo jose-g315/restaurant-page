@@ -2,6 +2,7 @@
 
 
 export  default function renderHomepage() {
+    // dom variables
     const content = document.querySelector("#content");
     const homepage = document.createElement("div");
     const name = document.createElement("div");
@@ -10,11 +11,10 @@ export  default function renderHomepage() {
     const pictureTwo = document.createElement("div");
     const pictureThree = document.createElement("div");
 
+    // adding css classes and text content
     homepage.classList.add("home-page"); 
     name.classList.add("name");
-    name.textContent = "Texas Stake";
-    promo.classList.add("promo");
-    promo.textContent = "Hello Welcome To Texas Stake! The Best Stake House in Texas and the Country!"
+    promo.classList.add("promo");  
     pictureOne.classList.add("picture");
     pictureOne.classList.add("one");
     pictureTwo.classList.add("picture");
@@ -22,6 +22,10 @@ export  default function renderHomepage() {
     pictureThree.classList.add("picture");
     pictureThree.classList.add("three");
 
+    name.textContent = "Texas Steak";
+    promo.textContent = "Hello Welcome To Texas Steak! The Best Steak House in Texas and the Country!"
+
+    // appending dom elements to the homepage container and homepage to main content container
     homepage.appendChild(name);
     homepage.appendChild(promo);
     homepage.appendChild(pictureOne);

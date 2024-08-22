@@ -2,7 +2,7 @@
 * {
     padding: 0;
     margin: 0;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 :root {
     --main-font-color: antiquewhite;
@@ -82,6 +82,48 @@ nav {
 .three {
     background-image: url(./images/ai-generated-8606240_640.jpg);
     border: 8px solid var(--main-font-color);
+}
+/* menu  */
+.menu-container {
+    height: 100%;
+    width: 70%;
+    background-color: antiquewhite;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.section-container {
+    font-size: 2.5rem;
+    text-align: center;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 5px double black;
+    border-top: 5px double black;
+}
+.item-container {
+    display: grid;
+    grid-template-columns: 1fr .3fr;
+    grid-template-rows: 1fr 1fr;
+    text-align: left;
+}
+.food-name {
+    grid-column: 1/2;
+    font-size: 1.7rem;
+}
+.description {
+    grid-row: 2/3;
+    font-size: 1rem;
+    font-style: italic;
+}
+.price {
+    grid-row: 1/3;
+    font-size: 1.7rem;
+    font-style: italic;
 }
 
 @media screen and (max-width: 800px) {

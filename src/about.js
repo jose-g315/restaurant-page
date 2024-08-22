@@ -1,0 +1,1 @@
+// module for rendering about page
