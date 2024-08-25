@@ -20,7 +20,7 @@ export default function renderAbout() {
     statement.textContent = "Here at Texas Steak we strive to be a second home to everybody. When your here you are family. We are committed to providing a world class experience and ensuring that you leave happier and fuller than when you come in. So come on down partner!";
     contact.textContent = "Address: 123 Street St Oak, Texas Email: TexasSteak@gmail.com  Phone: 123-456-7890";
 
-    // appending 
+    // appending dom elements to about container and about to the main content container
     about.appendChild(heroPicture);
     about.appendChild(mission);
     about.appendChild(statement);
