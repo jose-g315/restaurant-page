@@ -23,7 +23,7 @@ export  default function renderHomepage() {
     pictureThree.classList.add("three");
 
     name.textContent = "Texas Steak";
-    promo.textContent = "Hello Welcome To Texas Steak! The Best Steak House in Texas and the Country!"
+    promo.textContent = "Howdy, welcome to Texas Steak! The best steak house in Texas and the country!"
 
     // appending dom elements to the homepage container and homepage to main content container
     homepage.appendChild(name);
@@ -39,5 +39,6 @@ export  default function renderHomepage() {
     <div class="promo">Hello Welcome To Texas Stake! <br> The Best Stake House in Texas and the Country!</div>
     <div class="picture one">Image by <a href="https://pixabay.com/users/ray_shrewsberry-7673058/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8683863">Ray Shrewsberry •</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8683863">Pixabay</a></div>
     <div class="picture two">Image by <a href="https://pixabay.com/users/kyraxys-41857870/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8771203">Leo</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8771203">Pixabay</a></div>
+    Image by <a href="https://pixabay.com/users/clker-free-vector-images-3736/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=28569">Clker-Free-Vector-Images</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=28569">Pixabay</a>
     <div class="picture three">Image by <a href="https://pixabay.com/users/eismannhans-5686/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8606240">Hans Schwarzkopf</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8606240">Pixabay</a></div>
 </div> */

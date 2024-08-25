@@ -16,7 +16,7 @@ export const menuItems = [
     {
         name: "Cinnamon Rolls",
         price: "$7.99",
-        description: "Lightly season rolls with our special blend of cinnamon seasoning. Comes with home made butter.",
+        description: "Lightly season rolls with our special blend of cinnamon seasoning. Comes with homemade butter.",
         type: "appetizer"
     },
     {
@@ -28,7 +28,7 @@ export const menuItems = [
     {
         name: "Steak Bites",
         price: "$17.99",
-        description: "A perfectly cooked sirloin steak cut into perfect size. Served with rice and grilled veggies.",
+        description: "A perfectly cooked sirloin steak cut into perfect bite sized pieces. Served with rice and grilled veggies.",
         type: "entree"
     },
     {
@@ -41,13 +41,13 @@ export const menuItems = [
         name: "Ice Cream & Pie",
         price: "$9.99",
         description: "Three scoops of our homemade vanilla ice cream on top of a slice of an apple pie. ",
-        type: "desert"
+        type: "dessert"
     },
     {
         name: "Big Brownie",
         price: "12.99",
         description: "A huge brownie topped with hot fudge.",
-        type: "desert"
+        type: "dessert"
     },
     {
         name: "Sweet Iced Tea",
@@ -58,7 +58,7 @@ export const menuItems = [
     {
         name: "Texas Steak Beer",
         price: "$6.99",
-        description: "This delicious malt is brewed in house in our world renown brewery.",
+        description: "This delicious malt is brewed in house in our world renowned brewery.",
         type: "drink"
     },
 ]

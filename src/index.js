@@ -2,6 +2,7 @@ import "./styles.css";
 // importing all tabs
 import renderHomepage from "./homepage";
 import renderMenu from "./menu";
+import renderAbout from "./about";
 
 
 function clearContent() {
@@ -21,4 +22,9 @@ const menuButton = document.querySelector(".menu");
 menuButton.addEventListener("click", () => {
     clearContent();
     renderMenu();
+});
+const aboutButton = document.querySelector(".about");
+aboutButton.addEventListener("click", () => {
+    clearContent();
+    renderAbout();
 });
