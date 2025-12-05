@@ -23,7 +23,7 @@ export  default function renderHomepage() {
     pictureThree.classList.add("three");
 
     name.textContent = "Texas Steak";
-    promo.textContent = "Howdy, welcome to Texas Steak! The best steak house in Texas and the country!"
+    promo.textContent = "Howdy, and welcome to Texas Steak — the heart of true Texas flavor! We're proud to be the Lone Star State's favorite steakhouse, serving up world-class cuts that make us a legend across the country. Pull up a chair and taste the tradition!"
 
     // appending dom elements to the homepage container and homepage to main content container
     homepage.appendChild(name);
