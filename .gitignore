@@ -91,7 +91,7 @@ out
 .nuxt
 
 # removing dist to deploy on github pages
-#dist
+dist
 
 # Gatsby files
 .cache/
